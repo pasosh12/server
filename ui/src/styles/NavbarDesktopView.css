@@ -1,0 +1,167 @@
+.link {
+    all: unset;
+    cursor: pointer;
+}
+
+.header {
+    padding-top: 25px;
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.headerContainer {
+    max-width: 1238px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    display: block;
+    margin-left: 65px;
+}
+
+.prise_modal {
+    z-index: 1000;
+    position: absolute;
+    left: -20px;
+    top: 36.5px;
+    box-shadow: 0 0 25px 5px rgb(122 122 122 / 20%);
+    width: 114px;
+    height: 220px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_price_modal {
+    display: block;
+}
+
+.conversion {
+    cursor: pointer;
+    margin-bottom: 15px;
+    color: #1D1F22;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.logoContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+
+.shoppingCartAndCurrencyContainer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 65px;
+}
+
+.wrapper {
+    display: block;
+}
+
+.shoppingCartButtonContainer {
+    position: static;
+    height: 25px;
+    right: 0px;
+    top: calc(50% - 20px / 2);
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 22px;
+}
+
+.shoppingCartButton {
+    border: 0;
+    margin-top: 0.25rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.currencyButtonContainer {
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 7px;
+    gap: 7px;
+}
+
+.currencySymbol {
+    width: 12px;
+    height: 29px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    display: flex;
+    align-items: flex-end;
+    color: #1D1F22;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.currencyButton {
+    width: 25px;
+    display: flex;
+    margin-top: 0.3rem;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.currencyButton img {
+    margin-left: 10px;
+}
+
+.totalItems {
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: -15%;
+    font-size: 12px;
+    line-height: 1;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.headerElementSelected {
+    text-decoration: none;
+    padding: 16px;
+    color: #5ECE7B;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #5ECE7B;
+}
+
+.headerElement {
+    padding: 16px;
+    color: inherit;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: none;
+}
